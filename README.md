@@ -24,6 +24,20 @@ It gives components direct access to the data they need.
 Using the connect function that comes with Redux, you can plug any component into Redux’s data store,
 and the component can pull out the data it requires.
 
+# Store
+
+All of our states in one place.
+
+# Provider
+
+Makes store avaliable to all containers/components
+
+# Containers
+
+The glue between react components with the redux store
+
+-> they go fetch the aplications data and dispatch it to the component
+
 # Actions
 Actions are payloads of information that send data from your application to your store.
 They are the only source of information for the store.
