@@ -1,4 +1,4 @@
-##What is Redux?
+#What is Redux?
 Redux is a predictable state container for JavaScript apps.
 
 ###Plug Any Data Into Any Component
@@ -27,7 +27,8 @@ In Redux, action creators simply return an action:
     type: ADD_TODO,
     text
   }
-}```
+}
+```
 
 To actually initiate a dispatch, pass the result to the ```dispatch()``` function:
 
